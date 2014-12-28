@@ -51,7 +51,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light;
 }
 
 p {
@@ -64,14 +64,14 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 
   &:hover {
-    color: #fff;
+    color: white;
     text-decoration: none;
   }
 
@@ -86,10 +86,10 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: $gray-light;
 
   a {
-    color: #555;
+    color: $gray-darker;
     &:hover {
       color: #222;
     }
